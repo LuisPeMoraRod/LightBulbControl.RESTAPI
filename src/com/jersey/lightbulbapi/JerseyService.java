@@ -15,8 +15,6 @@ import javax.ws.rs.core.Response.Status;
 public class JerseyService
 {
 	private static Object ipAddress;
-
-	
     @GET
     public Response getIp()
     {
